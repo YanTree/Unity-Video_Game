@@ -7,9 +7,16 @@ public class Score : MonoBehaviour
 {
     public Transform player;
     public Text scoreText;
+    public Transform endTrigger;
+
+    bool ReachEnd()
+    {
+        return endTrigger.position.z - player.position.z < 0;
+    }
     // Update is called once per frame
     void Update()
     {
-        scoreText.text = player.position.z.ToString("0");
+        if (ReachEnd() == false)
+            scoreText.text = (endTrigger.position.z - player.position.z).ToString("0");
     }
 }

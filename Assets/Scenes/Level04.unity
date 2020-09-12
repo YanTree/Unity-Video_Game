@@ -2474,6 +2474,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 167189938}
+    - target: {fileID: 436518843322690511, guid: bdc4e24c9e25207408feb9775860bc6e,
+        type: 3}
+      propertyPath: endTrigger
+      value: 
+      objectReference: {fileID: 8943891758813991993}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bdc4e24c9e25207408feb9775860bc6e, type: 3}
 --- !u!1001 &1488710640692025468
@@ -2846,3 +2851,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d44e6a5f9e5f0db4da22799f3d34d44b, type: 3}
+--- !u!4 &8943891758813991993 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8943891758251889315, guid: d44e6a5f9e5f0db4da22799f3d34d44b,
+    type: 3}
+  m_PrefabInstance: {fileID: 8943891758813991992}
+  m_PrefabAsset: {fileID: 0}
